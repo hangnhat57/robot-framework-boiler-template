@@ -3,7 +3,7 @@ Library           Selenium2Library
 
 *** Keywords ***
 Initialize Application
-    Open Browser    ${URL}    ${BROWSER}
+    Open Browser    url=${URL}    browser=${BROWSER}    remote_url=${REMOTE_URL}
     Maximize Browser Window
     Set Selenium Speed	${DELAY}
     

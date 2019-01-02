@@ -1,10 +1,8 @@
 *** Settings ***
 Test Setup        Common.Initialize Application    # Launching the application and its dependencies
 Test Teardown     Common.Close Application
-Resource          Resources/GooglePage.robot
-Resource          Resources/uftHelpHomePage.robot
 Variables         Variables/GlobalVar.py
-Resource          lib/Common.robot
+Resource          Steps/Common.robot
 Resource          lib/App.robot
 
 *** Test Cases ***

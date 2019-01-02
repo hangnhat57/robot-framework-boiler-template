@@ -2,8 +2,8 @@
 Library           Selenium2Library
 
 *** Variables ***
-${input_txt}    id=lst-ib
-${click_btn}    name=btnG
+${input_txt}    name:q
+${click_btn}    name:btnK
 
 *** Keywords ***
 Search ${APPLICATION} on Google
