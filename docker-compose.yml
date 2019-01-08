@@ -1,6 +1,16 @@
 version: '2.1'
 
 services:
+  fw:
+    build: .
+    volumes:
+      - .:/test
+    depends_on:
+      - hub
+      - chrome
+    privileged: true
+    links:
+      - "hub"
   hub:
     image: elgalu/selenium
     ports:

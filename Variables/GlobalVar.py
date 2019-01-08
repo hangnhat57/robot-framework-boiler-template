@@ -1,9 +1,9 @@
 #Defining the Global Variables 
-APPLICATION = "uftHelp"
-URL = "https://www.google.ca"
+
+URL = "https://goodseeker.ci.lucidfoundry.com/"
 BROWSER = "Firefox"
 TOPIC = "Robot Framework"
-APP_TITLE = "User-Friendly Techy-Help"
+APP_TITLE = "GoodSeeker - Home"
 SYNC = 20
 DELAY	= 0
-REMOTE_URL = "http://localhost:4444/wd/hub"
+REMOTE_URL = "http://hub:4444/wd/hub"
